@@ -7,3 +7,16 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.card {
+    margin: 0 auto;
+}
+
+header p {
+    width: 40%;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+.wrapper {
+    background-color: var(--body-color);
+}
