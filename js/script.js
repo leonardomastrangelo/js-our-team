@@ -97,7 +97,7 @@ function addMate(mate) {
     const newMate = {
         name: document.getElementById("name").value,
         role: document.getElementById("role").value,
-        profileImg: document.getElementById("profile-img").value //? PROBLEM
+        profileImg: document.getElementById("profile-img").value
     }
     // push new mate to teammates array
     teammates.push(newMate);
