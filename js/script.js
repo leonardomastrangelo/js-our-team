@@ -62,7 +62,8 @@ for (let i = 0; i < teammates.length; i++) {
 // take button from html
 const addBtn = document.querySelector(".btn-info");
 // adding mate after click on button
-addBtn.addEventListener("click", addMate)
+addBtn.addEventListener("click", addMate);
+
 /**
  * !! FUNCTIONS
 */
@@ -88,7 +89,7 @@ function printMate(mate) {
     // print template in col
     col.innerHTML = template;
     // append col in row
-    row.append(col)
+    row.append(col);
 }
 
 // add a new mate
@@ -102,5 +103,13 @@ function addMate(mate) {
     // push new mate to teammates array
     teammates.push(newMate);
     // printing new mate by function //! addMate
-    printMate(newMate)
+    printMate(newMate);
+    // emptying input values
+    resetInput()
+}
+
+function resetInput() {
+    document.getElementById("name").value = "";
+    document.getElementById("role").value = "";
+    document.getElementById("profile-img").value = "";
 }
