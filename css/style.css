@@ -1,0 +1,9 @@
+:root {
+    --body-color: #F5F5F0;
+    --text-color: #67615A;
+    --card-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
