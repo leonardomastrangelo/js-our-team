@@ -108,6 +108,7 @@ function addMate(mate) {
     resetInput()
 }
 
+//reset input values
 function resetInput() {
     document.getElementById("name").value = "";
     document.getElementById("role").value = "";
