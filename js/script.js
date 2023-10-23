@@ -33,3 +33,15 @@ const teammates = [
         profileImg : "barbara-ramos-graphic-designer.jpg"
     }
 ]
+
+/**
+ * * MILESTONE 1 *
+*/
+for (let i = 0; i < teammates.length; i++) {
+    const element = teammates[i];
+    console.group("mate");
+    console.log(element.name);
+    console.log(element.role);
+    console.log(element.profileImg);
+    console.groupEnd();
+}
