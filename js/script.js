@@ -72,7 +72,7 @@ function printMate(mate) {
     // create div who will be my col
     const col = document.createElement("div");
     // add to div the class "col"
-    col.classList.add("col-4");
+    col.classList.add("col-12","col-md-6","col-lg-4");
     // build main HTML template used for every mate
     let template =
     `
